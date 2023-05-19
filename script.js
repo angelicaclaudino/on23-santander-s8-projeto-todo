@@ -19,6 +19,11 @@ function limpar (){
   lista.innerHTML = ""
 }
 
+/*function deletarTarefa(evento){
+  lista.removeChild(evento.target.parentElement)
+
+}*/
+
 function cadastrarTarefa(evento) {
   // impedir que o formulário recarregue a página
   evento.preventDefault();
@@ -27,6 +32,9 @@ function cadastrarTarefa(evento) {
   itemDaLista.innerHTML = valorInput;
   itemDaLista.addEventListener('click', marcarTarefaComoFeita)
 
+  /*let botaoDeletarTarefa = document.createElement('button');
+  botaoDeletarTarefa.addEventListener('click', deletarTarefa);
+  itemDaLista.appendChild(botaoDeletarTarefa);*/
   
   lista.appendChild(itemDaLista);
 
