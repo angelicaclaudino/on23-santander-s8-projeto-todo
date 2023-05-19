@@ -19,6 +19,7 @@ function limpar (){
   lista.innerHTML = ""
 }
 
+
 /*function deletarTarefa(evento){
   lista.removeChild(evento.target.parentElement)
 
