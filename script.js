@@ -20,10 +20,10 @@ function limpar (){
 }
 
 
-/*function deletarTarefa(evento){
-  lista.removeChild(evento.target.parentElement)
+// function deletarTarefa(evento){
+//   lista.removeChild(evento.target.parentElement)
 
-}*/
+// }
 
 function cadastrarTarefa(evento) {
   // impedir que o formulário recarregue a página
